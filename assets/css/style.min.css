@@ -1,0 +1,192 @@
+body {
+    border-top: 4px solid #7289da;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 18px;
+}
+.hr-title {
+    border: 3px solid #0038ad;
+    width: 60px;
+}
+.ad {
+    color: #000;
+}
+.info-alert {
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.post-image {
+    border-radius: 8px;
+}
+.post-content {
+    margin-top: 0 !important;
+}
+.card-blog {
+    width: 100%;
+}
+.blog-area h1,
+.second-title {
+    text-align: center;
+}
+@media only screen and (max-device-width: 420px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .first-title {
+        font-size: 16px;
+    }
+}
+.search-symbol {
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    padding: 18px;
+}
+.search-symbol a {
+    color: #000;
+}
+.btn-accordion:active,
+.btn-accordion:focus {
+    outline: 0 !important;
+    box-shadow: none;
+}
+.container {
+    max-width: 700px;
+}
+.card-blog {
+    margin-top: 20px;
+}
+.theme-switcher {
+    text-align: right;
+    padding: 18px;
+}
+.theme-switcher img {
+    width: 18px;
+    height: auto;
+}
+.theme-switcher img:hover {
+    cursor: pointer;
+}
+.theme-switcher-logo:hover {
+    cursor: pointer;
+}
+.card h2 {
+    font-size: 15px;
+}
+.card button {
+    color: #2c2f33;
+}
+.card button:hover {
+    color: #2c2f33;
+    text-decoration: none;
+}
+.card button:focus {
+    color: #2c2f33;
+    text-decoration: none;
+}
+.shadow-form {
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+}
+.bild-suche {
+    padding-top: 20px;
+    text-align: center;
+}
+.form-control:focus {
+    border-color: #7289da;
+    box-shadow: 0 0 0 0.1rem #007bff;
+}
+.header {
+    padding-top: 50px;
+    text-align: center;
+}
+.top-bar {
+    background: #0038ad;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.top-bar-menu {
+    width: 100%;
+}
+.logo {
+    margin-bottom: 50px;
+    width: 250px;
+}
+.logo-top-bar {
+    text-align: center;
+    padding: 15px;
+}
+.logo-top-bar .logo {
+    max-width: 100%;
+}
+@media only screen and (max-device-width: 380px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .logo {
+        width: 200px;
+    }
+}
+.bild-anzeige {
+    margin-bottom: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-link-black {
+    color: #000;
+}
+.btn-link-black:hover {
+    color: #0038ad;
+}
+.btn-link-black:focus {
+    color: #0038ad;
+}
+.neues-bild-suchen {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.bild-teilen {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer {
+    padding-top: 50px;
+    text-align: center;
+    color: grey;
+    font-size: 11px;
+}
+.footer .privacy {
+    border-top: 4px solid #738adb;
+    margin-top: 20px;
+    background: #23272a;
+    padding: 20px;
+    color: #99aab5;
+}
+.footer .privacy a {
+    color: #99aab5;
+    font-size: 12px;
+}
+.footer .privacy p {
+    margin-top: 12px;
+}
+.btn-primary {
+    background: #738adb;
+    border: 1px solid #738adb !important;
+}
+.btn-primary:hover {
+    background: #697ec8;
+}

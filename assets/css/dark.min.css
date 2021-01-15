@@ -1,0 +1,124 @@
+body {
+    background: #1c1c1c !important;
+}
+
+h1 {
+    color: #99aab5;
+}
+
+h2 {
+    color: #99aab5;
+}
+
+h3 {
+    color: #99aab5;
+}
+
+h4 {
+    color: #99aab5;
+}
+
+p {
+    color: #99aab5;
+}
+
+em {
+    color: #99aab5;
+}
+
+small {
+    color: #99aab5;
+}
+
+strong {
+    color: #99aab5;
+}
+
+p a {
+    color: #0038ad;
+}
+
+label {
+    color: #99aab5;
+}
+
+.ad {
+    color: #0038ad;
+}
+
+.shadow-form .profil-eingabe {
+    background: #2c2f33;
+    color: #ffffff;
+}
+
+.form-control {
+    background: #2c2f33;
+    border: #2c2f33;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background: #2c2f33;
+    border-color: #7289da;
+    color: #ffffff;
+    box-shadow: 0 0 0 .1rem rgba(0,123,255,1);
+}
+
+.profilbild-teilen {
+    background: #2c2f33 !important;
+    border: #2c2f33 !important;
+    color: #919191 !important;
+}
+
+.accordion {
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion card-header:hover {
+    background: #2c2f33; !important;
+}
+
+.card {
+    background: #2c2f33;
+    color: #99aab5;
+}
+
+.card-header button {
+    color: #99aab5;
+}
+
+.card-title {
+    color: #99aab5;
+}
+
+.card-text {
+    color: #99aab5;
+}
+
+.card button {
+    color: #9F9F9F;
+}
+
+.card button:hover {
+    color: #9F9F9F;
+}
+
+.card button:focus {
+    color: #9F9F9F;
+}
+
+.search-symbol {
+    color: #9F9F9F;
+}
+
+.search-symbol a {
+    color: #9F9F9F;
+}

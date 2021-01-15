@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <!-- <meta name="theme-color" content="#121212" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Discord Profile Photo Downloder</title>
+        <!-- <meta name="description" content="Vergrößer Discord Avatare und lade sie dir in originaler Qualität herunter." />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="discordzoom.com" />
+        <meta property="og:title" content="Discord Avatare vergrößern - discordzoom.com!" />
+        <meta property="og:url" content="https://discordzoom.com/" />
+        <meta property="og:description" content="Vergrößer Discord Avatare und lade sie dir in originaler Qualität herunter." />
+        <meta property="og:image" content="/assets/img/logo-banner.jpg" /> -->
+        <link rel="icon" type="image/png" href="https://discord.com/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/style.min.css" />
+        <link rel="stylesheet" href="./assets/css/dark.min.css" />
+        <script type="text/javascript" src="./assets/js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="bild-suche">
+                <br />
+                <a href="https://namnyang.github.io/discordprofile">
+                    <img src="./assets/images/logo.png" />
+                </a>
+                <br />
+                <br />
+                <!-- <h1 class="first-title">디스코드 프사 다운로더</h1> -->
+
+                <br />
+
+                <form>
+                    <div class="input-group mb-3 shadow-form">
+                        <input type="number" name="userid" title="user-ID des Nutzers" class="form-control profil-eingabe" placeholder="Discord User ID" id="usernameInput" />
+                        <div>
+                            <!-- <input class="btn btn-primary" type="submit" value="Download" onclick="getAvatare()" /> -->
+                            <button class="btn btn-primary" type="button" value="Download" onclick="getAvatare()">Download</button>
+                        </div>
+                    </div>
+                </form>
+                <br />
+                <img id="Profilephoto" src="" />
+                <br />
+                <br />
+                <div id="downloadimg" style="display: none">
+                    <button class="btn btn-primary" type="button" value="Download" onclick="downloadimg()">Download IMG</button>
+                </div>
+                <br />
+            </div>
+            <br />
+        </div>
+
+        <div class="footer" style="position: fixed; bottom: 0; width: 100%">
+            <div class="privacy">Made By <a href="https://github.com/namnyang">Namnyang</a></div>
+        </div>
+
+        <!-- <style>
+            ccc {
+                display: contents;
+            }
+
+            ccc.ccc--converted {
+                animation: ccc 0.7s ease-in-out;
+            }
+
+            @-webkit-keyframes ccc {
+                from {
+                    background-color: yellow;
+                }
+
+                to {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+            }
+        </style> -->
+    </body>
+</html>
