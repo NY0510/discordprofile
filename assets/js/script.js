@@ -15,7 +15,7 @@ function getParam(sname) {
 function getAvatare() {
     id = document.getElementById("usernameInput").value;
     var img = document.getElementById("Profilephoto");
-    imgurl = "https://d.lu.je/avatar/" + id + "?size=256";
+    imgurl = "https://d.lu.je/avatar/" + id + "?size=128";
     img.onload = function () {
         document.getElementById("downloadimg").style.display = "block";
     };
